@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Responsive page</title>
+    <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoGp-rc5pIj9JwC_AT2PJhj8F9UGZYc42pxz7BWSszKCHyjDzq-MECEshdTDfqQ7Njc_4&usqp=CAU">
+
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="demo.css">
+
+    
+    <!-- font-icon link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+
+<div class="top">
+
+  <header>
+
+    
+    
+    <div class="navbar">
+        
+        <div class="logo">
+            <a href="index.html"><img src="https://t3.ftcdn.net/jpg/03/65/42/00/360_F_365420014_xjsSDkKzrhq4gr9GFzP6S97H7MJyNI5B.jpg" alt="logo-img"  width="75" height="40"></a>
+        </div>
+      <ul>
+
+        <!-- city -->
+
+        <li  class="dropdown">City <button class="dropbtn"><i class="fa fa-caret-down" aria-hidden="true"></i></button>
+        
+            <div class="dropdown-content" id="dp1">
+                <a href=""><b>TOP CITIES</b></a>
+                <a href="https://www.google.com/search?q=chennai&rlz=1C1VDKB_enIN1011IN1011&oq=
+                chennai&aqs=chrome.0.0i271j46i433i512j46i131i199i433i465i512j0i433i512j0i433i650j46i131i199i433i465i512j0i512j69i60.
+                2690j0j7&sourceid=chrome&ie=UTF-8">Chennai</a>
+                <a href="https://www.google.com/search?q=trichy&sca_esv=563303096&rlz=1C1VDKB_enIN1011IN1011&ei=5l_5ZKuFHtPhseMPmNGIsAs&ved=
+                0ahUKEwirkMu84peBAxXTcGwGHZgoArYQ4dUDCBA&uact=5&oq=trichy&gs_lp
+                =Egxnd3Mtd2l6LXNlcnAiBnRyaWNoeTIKEC4YsQMYigUYQzIKEAAYigUYsQMYQzIHEAAYigUYQzIHEAAYigUYQzIHEAAYigUYQzIHEAAYigUYQzIFEAAYgAQyChAAGIoFGLEDGEMyCBAAGIAEGLEDMggQABiABBixAzIZEC4YsQMYigUYQxiXBRjcBBjeBBjgBNgBA0j4KFDnAl
+                jlHXACeAGQAQCYAaABoAHECqoBAzUuN7gBA8gBAPgBAagCFMICChAAGEcY1gQYsAPCAgoQABiKBRiwAxhDwgIOEAAY5AIY1gQYsAPYAQHCAhAQLhiKBRjIAxiwAxhD2AECwgIWEC4YigUYxwEYrwEYyAMYsAMYQ9gBAsICChAuGIoFGLEDGEPCAhAQLhiKBRixAxjHARivAR
+                hDwgIREC4YgAQYsQMYgwEYxwEY0QPCAhkQLhiKBRixAxhDGJcFGNwEGN4EGOAE2AEDwgINEC4YigUYxwEYrwEYQ8ICBxAuGIoFGEPCAgsQABiABBixAxiDAcICFhAuGIoFGEMYlwUY3AQY3gQY4ATYAQPCAhAQLhiKBRjqAhi0AhhD2AEEwgIQEAAYigUY6gIYtAIYQ9gBBMICFhAAGAMYj
+                wEY5QIY6gIYtAIYjAPYAQXCAhYQLhgDGI8BGOUCGOoCGLQCGIwD2AEFwgILEC4YgAQYxwEY0QPCAg0QABiKBRixAxiDARhDwgINEC4YigUYxwEY0QMYQ8ICFhAuGIoFGMcBGK8BGJgFGJ4FGJkFGEPCAg0QLhiKBRixAxiDARhDwgIIEAAYigUYsQPCAiUQLhiKBRjHARivARiYBRieBRiZB
+                RhDGJcFGNwEGN4EGOAE2AED4gMEGAAgQYgGAZAGE7oGBggBEAEYCboGBggCEAEYCLoGBggDEAEYFLoGBAgEGAe6BgYIBRABGAo&sclient=gws-wiz-serp">Tiruchirappalli</a>
+                <a href="https://www.google.com/search?q=madurai&sca_esv=563303096&rlz=1C1VDKB_enIN1011IN1011&ei=A2D5ZPbyG8WgseMP-8eJ-As&gs_ssp=
+                eJzj4tTP1TcwtExLKjBg9GLPTUwpLUrMBAA6mwYW&oq=mad&gs_lp=Egxnd3Mtd2l6LXNlcnAiA21hZCoCCAAyDRAuGIoFGLEDGIMBGEMyBxAAGIoFGEMyCxAAGIAEGLEDGIMBMgcQABiKBRhDMgcQABiKBRhDMgcQABiKBRhDM
+                gcQABiKBRhDMgcQABiKBRhDMgcQABiKBRhDMgsQLhiABBixAxiDATIcEC4YigUYsQMYgwEYQxiXBRjcBBjeBBjgBNgBA0ihL1CrAljEGXACeAGQAQCYAeUBoAHhCaoBBTIuNC4yuAEDyAEA-AEBqAIUwgIKEAAYRxjWBBiwA8ICC
+                hAAGIoFGLADGEPCAg4QABjkAhjWBBiwA9gBAcICEBAuGIoFGMgDGLADGEPYAQLCAgcQLhiKBRhDwgIFEAAYgATCAhYQLhiKBRhDGJcFGNwEGN4EGOAE2AEDwgIQEC4YigUY6gIYtAIYQ9gBBMICEBAAGIoFGOoCGLQCGEPYAQTCAhYQ
+                ABgDGI8BGOUCGOoCGLQCGIwD2AEFwgIWEC4YAxiPARjlAhjqAhi0AhiMA9gBBcICDRAAGIoFGLEDGIMBGArCAg0QABiKBRixAxiDARhDwgITEC4YigUYsQMYgwEYxwEY0QMYQ8ICCxAuGIoFGLEDGIMBwgIFEC4YgATiAwQYACBBiAYBkAYTug
+                YGCAEQARgJugYGCAIQARgIugYGCAMQARgUugYECAQYB7oGBggFEAEYCg&sclient=gws-wiz-serp">Madurai</a>
+              </div>
+        
+        </li>
+
+        <!-- BUY -->
+
+        <li class="dropdown">Buy <button class="dropbtn"><i class="fa fa-caret-down" aria-hidden="true"></i></button>
+        
+            <div class="dropdown-content" id="dp2">
+                <a href=""><b>NO.Of.ROOMS</b></a>
+                <a href="">1 BHK Flats for Sale</a>
+                <a href="">2 BHK Flats for Sale</a>
+                <a href="">3 BHK Flats for Sale</a>
+                <a href="">4 BHK Flats for Sale</a>
+            </div>
+        </li> 
+        
+        <!-- Rent -->
+
+        <li class="dropdown">Rent <button class="dropbtn"><i class="fa fa-caret-down" aria-hidden="true"></i></button>
+            <div class="dropdown-content" id="dp3">
+                <a href="#"><b>Popular Searches</b></a>
+                <a href="#">Property for Rent</a>
+                <a href="#">Gated Community for Rent</a>
+                <a href="#">Furnished Properties for Rent</a>
+                <a href="#">No Brokerage Properties for Rent</a>
+                <br>
+               
+            </div>
+            
+        </li>
+
+       
+
+        <!-- Project -->
+
+        <li class="dropdown">Project <button class="dropbtn"><i class="fa fa-caret-down" aria-hidden="true"></i></button>
+            <div class="dropdown-content" id="dp4">
+                <a href=""><b>New Projects</b></a>
+                <a href="">New Launch Projects</a>
+                <a href="">Under Construction Projects</a>
+                <a href="">Ready To Move Projects</a>
+            </div>
+        </li>
+
+        <!-- Agents -->
+
+        <li class="dropdown">Agents <button class="dropbtn"><i class="fa fa-caret-down" aria-hidden="true"></i></button>
+            <div class="dropdown-content" id="dp5">
+                <a href="">Sales Agents</a>
+                <a href="">Service Agents </a>
+                <a href="">Rent Agents</a>
+                <a href="">Secert Agents</a>
+                <a href="">Property agents</a>
+            </div>
+        </li>
+
+        <!-- Services -->
+
+        <li class="dropdown">Services <button class="dropbtn"><i class="fa fa-caret-down" aria-hidden="true"></i></button>
+            <div class="dropdown-content" id="dp6">
+                <a href=""><b>For Buyers</b></a>
+                <a href=""><b>For Agents</b> </a>
+                <a href=""><b>For Tenants</b></a>
+                <a href=""><b>For Owners</b></a>
+            </div>
+        </li>
+
+        <!-- Resources -->
+
+        <li class="dropdown">Resources <button class="dropbtn"><i class="fa fa-caret-down" aria-hidden="true"></i></button>
+            <div class="dropdown-content" id="dp7">
+                <a href="">Tools</a>
+                <a href="">Solutions</a>
+                <a href="">Credit Score</a>
+                <a href="">Guides</a>
+                <a href="">Glossary</a>
+            </div>
+        </li>
+
+
+
+        <a href="https://www.squareyards.com/data-intelligence"><li id="data"> <span style="background-color: aqua; border-radius: 5px; padding: 2px; font-size:14px ;">Data</span> Intelligence</li></a>
+
+        
+
+
+      </ul>
+      
+      <a href="Contact.html"><li style="border: 2px solid rgb(88,191,147); padding: 2% ; border-radius: 5px; margin: 10%; margin-left: 23%; font-family: 'Times New Roman', Times, serif; ">sell or Rent Property</li></a>
+      <a href="login.html" style="text-decoration: none; color: white;" id="login">Login</a>
+      <ul>
+        <li style="font-size: 20px;margin: 10px;color:white;"><i class="fa fa-heart" aria-hidden="true" id="heart" ></i></li>
+      </ul>
+      
+      <div class="toggle-btn">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+      </div>
+    </div>
+
+
+
+
+
+    <div class="dropdown-menu">
+      <li><a href="#">City</a></li>
+      <li><a href="#">Buy</a></li>
+      <li><a href="#">Rent</a></li>
+      <li><a href="#">Agents</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Resources</a></li>
+      <li><a href="#" class="action-btn2">Get started</a></li>
+    </div>
+
+  </header>
+
+  <hr style="color: beige;">
+
+  <script>
+    const toggleBtn = document.querySelector('.toggle-btn')
+    const toggleIcon = document.querySelector('.toggle-btn i')
+    const dropDownMenu = document.querySelector('.dropdown-menu')
+
+    toggleBtn.onclick = function () {
+      dropDownMenu.classList.toggle('open')
+
+      const isOpen = dropDownMenu.classList.contains('open')
+
+      toggleIcon.classList = isOpen
+      ? 'fa fa-times-circle'
+      : 'fa fa-bars'
+    }
+
+  </script>
+
+
+  <div class="container">
+    <h1 style="text-align: center; font-family: 'Times New Roman', Times, serif;padding: 25px;color: white; margin: 15px;">Real Estate Made Real Easy</h1>
+  </div>
+
+  
+  
+    <center>
+        <div class="top-bar container">
+            <div class="top-bar-inner">
+            <div class="menu-items middle">
+                <div class="menu-item"><i class="fa fa-home" aria-hidden="true"></i>_Home</div>
+                <div class="menu-item"> <i class="fa fa-window-restore" aria-hidden="true"></i> _Land</div>
+                <div class="menu-item"><i class="fa fa-users" aria-hidden="true"></i> _Agents</div>
+                <div class="menu-item"><i class="fa fa-spinner" aria-hidden="true"></i> _Project</div>
+                <div class="menu-item"><i class="fa fa-th-list" aria-hidden="true"></i> _Service</div>
+            </div>
+            <div class="search-bar container">
+                <div class="search-bar-outer">
+                <div class="search-bar-inner">
+                    <input type="text" placeholder="Search by 'City'">
+                    <button type="submit"><i class="fa fa-search"></i>Search</button>
+                </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </center>
+
+    <center>
+        <div class="search-bar2" style="width: 65%; justify-content: center;">
+            <div class="search-bar-outer">
+            <div class="search-bar-inner">
+                <input type="text" placeholder="Search by 'City'">
+                <button type="submit"><i class="fa fa-search"></i>Search</button>
+            </div>
+            </div>
+        </div>
+    </center>
+
+    <div class="mark" style="height: 350px;">
+        
+    </div>
+
+</div>
+
+ <!-- Top part-end   -->
+
+ <center>
+    <div class="container">
+        <h1 style="font-family: 'Times New Roman', Times, serif; justify-content: center; margin: 20px;">Insights & Tools</h1>
+     </div>
+ </center>
+
+ <!-- card -->
+
+ 
+ 
+ <div class="container" >
+    <div class="row">
+
+        <span class="card-one">
+        <ul>
+
+            <!-- card - graph -->
+
+        <li  style="margin: 30px 20px 30px 20px;">
+            <span id="card1">
+
+
+
+                <div class="card" style="width: 15rem; background-color:rgb(255,237,186);font-family: 'Times New Roman', Times, serif;">
+                    <img src="graph-removebg-preview (1).png" alt="graph" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title" style="padding: 10px;">Property Rates & Price Trends</h5>
+                        
+                            <p class="card-text" style="padding: 10px 0px 40px 10px;color:rgb(102,102,102) ; font-size: 12px;">Market rates, data analytics & registered transactions of top project & localities</p>
+                        </div>
+                        <hr style="color: beige;">
+                        <div class="card-footer" style="font-weight: bold;padding: 10px;background-color: rgb(255,222,129);">
+                            <center><a href="" id="explore1">Explore Now <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a></center>
+                        </div>
+                  
+                </div> 
+
+            </span>
+          
+        </li>
+
+        <!-- card - map -->
+
+        <li  style="margin: 30px 20px 30px 20px;">
+            <span id="card1">
+
+
+
+                <div class="card" style="width: 15rem; background-color:rgb(197,244,229);font-family: 'Times New Roman', Times, serif;">
+                    <img src="earth -3 .png" alt="graph" class="card-img-top" >
+                        <div class="card-body">
+                            <h5 class="card-title" style="padding: 10px;">Property Rates Heatmap</h5>
+                        
+                            <p class="card-text" style="padding: 10px 0px 40px 10px;color:rgb(102,102,102) ; font-size: 12px;">An Interactive Map to help you understand a City’s Real Estate</p>
+                        </div>
+                        <hr style="color: beige;">
+                        <div class="card-footer" style="font-weight: bold;padding: 10px;background-color: rgb(197,244,229);">
+                            <center><a href="" id="explore2">Explore Now <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a></center>
+                        </div>
+                  
+                </div> 
+
+            </span>
+          
+        </li>
+
+       <!-- card-ibook -->
+
+       <li  style="margin: 30px 20px 30px 20px;">
+        <span id="card1">
+
+
+
+            <div class="card" style="width: 15rem; background-color:rgb(255,237,186);font-family: 'Times New Roman', Times, serif;">
+                <img src="ibook.png" alt="graph" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title" style="padding: 10px;">Real Estate Guides</h5>
+                    
+                        <p class="card-text" style="padding: 10px 0px 40px 10px;color:rgb(102,102,102) ; font-size: 12px;">Proven Strategies, Insider Tips, and Hidden Procedures for Buyers, Sellers, and Tenants.</p>
+                    </div>
+                    <hr style="color: beige;">
+                    <div class="card-footer" style="font-weight: bold;padding: 10px;background-color: rgb(255,230,173);">
+                        <center><a href="" id="explore3">Explore Now <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a></center>
+                    </div>
+              
+            </div>
+
+        </span>
+      
+    </li>
+
+    <!-- card-qmark -->
+       
+    <li  style="margin: 30px 20px 30px 20px;">
+        <span id="card1">
+
+
+
+            <div class="card" style="width: 15rem; background-color:rgb(255,219,206);font-family: 'Times New Roman', Times, serif;">
+                <img src="qmark - 1.png" alt="graph" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title" style="padding: 10px;">Property Rates & Price Trends</h5>
+                    
+                        <p class="card-text" style="padding: 10px 0px 40px 10px;color:rgb(102,102,102) ; font-size: 12px;">Market rates, data analytics & registered transactions of top project & localities</p>
+                    </div>
+                    <hr style="color: beige;">
+                    <div class="card-footer" style="font-weight: bold;padding: 10px;background-color: rgb(255,202,183);">
+                        <center><a href="" id="explore4">Explore Now <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a></center>
+                    </div>
+              
+            </div> 
+
+        </span>
+      
+    </li>
+
+    <!-- card - buliding -->
+
+    <li  style="margin: 30px 20px 30px 20px;">
+        <span id="card1">
+
+
+
+            <div class="card" style="width: 15rem; background-color:rgb(223,242,205);font-family: 'Times New Roman', Times, serif;">
+                <img src="buliding-3.png" alt="graph" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title" style="padding: 10px;">Real Estate Q&A Forum </h5>
+                    
+                        <p class="card-text" style="padding: 10px 0px 40px 10px;color:rgb(102,102,102) ; font-size: 12px;">Connect with a community of real estate to make informed decisions about buying, selling, and managing your home.</p>
+                    </div>
+                    <hr style="color: beige;">
+                    <div class="card-footer" style="font-weight: bold;padding: 10px;background-color: rgb(204,240,169)">
+                        <center><a href="" id="explore5">Explore Now <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a></center>
+                    </div>
+              
+            </div> 
+
+        </span>
+      
+    </li>
+
+
+    </ul>
+    </span>
+
+    
+
+    <span class="second-drop">
+    <div >
+
+
+         <!-- card - graph - 2 -->
+
+   <center>
+    <div class="card" style="width: 20rem; background-color:rgb(255,237,186);font-family: 'Times New Roman', Times, serif;margin: 30px;">
+        <img src="graph-removebg-preview (1).png" alt="graph" class="card-img-top">
+            <div class="card-body">
+                <h5 class="card-title" style="padding: 10px;">Property Rates & Price Trends</h5>
+            
+                <p class="card-text" style="padding: 10px 0px 40px 10px;color:rgb(102,102,102) ; font-size: 12px;">Market rates, data analytics & registered transactions of top project & localities</p>
+            </div>
+            <hr style="color: beige;">
+            <div class="card-footer" style="font-weight: bold;padding: 10px;background-color: rgb(255,222,129);">
+                <center><a href="" id="explore1">Explore Now <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a></center>
+            </div>
+      
+    </div> 
+   </center>
+
+   <!-- card - map - 2 -->
+
+   <center>
+    <div class="card" style="width: 20rem; background-color:rgb(197,244,229);font-family: 'Times New Roman', Times, serif;">
+        <img src="earth -3 .png" alt="graph" class="card-img-top" >
+            <div class="card-body">
+                <h5 class="card-title" style="padding: 10px;">Property Rates Heatmap</h5>
+            
+                <p class="card-text" style="padding: 10px 0px 40px 10px;color:rgb(102,102,102) ; font-size: 12px;">An Interactive Map to help you understand a City’s Real Estate</p>
+            </div>
+            <hr style="color: beige;">
+            <div class="card-footer" style="font-weight: bold;padding: 10px;background-color: rgb(197,244,229);">
+                <center><a href="" id="explore2">Explore Now <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a></center>
+            </div>
+      
+    </div> 
+   </center>
+
+   <!-- card-ibook - 2 -->
+
+   <center>
+    <div class="card" style="width: 20rem; background-color:rgb(255,237,186);font-family: 'Times New Roman', Times, serif; margin: 30px;">
+        <img src="ibook.png" alt="graph" class="card-img-top">
+            <div class="card-body">
+                <h5 class="card-title" style="padding: 10px;">Real Estate Guides</h5>
+            
+                <p class="card-text" style="padding: 10px 0px 40px 10px;color:rgb(102,102,102) ; font-size: 12px;">Proven Strategies, Insider Tips, and Hidden Procedures for Buyers, Sellers, and Tenants.</p>
+            </div>
+            <hr style="color: beige;">
+            <div class="card-footer" style="font-weight: bold;padding: 10px;background-color: rgb(255,230,173);">
+                <center><a href="" id="explore3">Explore Now <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a></center>
+            </div>
+      
+    </div> 
+   </center>
+
+  <!-- card-qmark -2 -->
+
+   <center>
+    <div class="card" style="width: 20rem; background-color:rgb(255,219,206);font-family: 'Times New Roman', Times, serif; margin: 30px;">
+        <img src="qmark - 1.png" alt="graph" class="card-img-top">
+            <div class="card-body">
+                <h5 class="card-title" style="padding: 10px;">Property Rates & Price Trends</h5>
+            
+                <p class="card-text" style="padding: 10px 0px 40px 10px;color:rgb(102,102,102) ; font-size: 12px;">Market rates, data analytics & registered transactions of top project & localities</p>
+            </div>
+            <hr style="color: beige;">
+            <div class="card-footer" style="font-weight: bold;padding: 10px;background-color: rgb(255,202,183);">
+                <center><a href="" id="explore4">Explore Now <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a></center>
+            </div>
+      
+    </div> 
+   </center>
+
+   <!-- card - buliding - 2 -->
+
+   <center>
+    <div class="card" style="width: 20rem; background-color:rgb(223,242,205);font-family: 'Times New Roman', Times, serif;">
+        <img src="buliding-3.png" alt="graph" class="card-img-top">
+            <div class="card-body">
+                <h5 class="card-title" style="padding: 10px;">Real Estate Q&A Forum </h5>
+            
+                <p class="card-text" style="padding: 10px 0px 40px 10px;color:rgb(102,102,102) ; font-size: 12px;">Connect with a community of real estate to make informed decisions about buying, selling, and managing your home.</p>
+            </div>
+            <hr style="color: beige;">
+            <div class="card-footer" style="font-weight: bold;padding: 10px;background-color: rgb(204,240,169)">
+                <center><a href="" id="explore5">Explore Now <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a></center>
+            </div>
+      
+    </div> 
+   </center>
+
+
+
+    </div>
+</span>
+
+        
+    </div>
+ </div> 
+ 
+<!-- end-card -->
+
+<!-- Bar -->
+
+
+
+<div class="container bar-box">
+
+    <center><h1 style="font-family: 'Times New Roman', Times, serif; margin: 40px;">Everything you Need at One Place</h1></center>
+
+
+    <span class="slide-bar">
+
+        <ul>
+            <div class="card"></div>
+            <li class="s1" style="box-shadow: 10px 10px rgb(177,177,177);border-radius: 10px;margin: 30px 30px 20px 50px;width: 20rem; height: 14rem;border: 1px solid rgb(177,177,177);padding: 8px;">
+                <div class="card-body" style="margin-bottom: 20px;padding: 2px;">
+                    <img src="rent-removebg-preview.png" alt="rent" style="position: absolute;margin-top: 54px;margin-left: 142px;">
+                    
+                        <h4 class="card-title" style="margin: 20px;font-family: 'Times New Roman', Times, serif;">Rent Agreement</h4>
+                        <p style="color: rgb(141,141,141);font-family: 'Times New Roman', Times, serif;">- Super Quick & Easy</p>
+                        <p style="color: rgb(141,141,141);font-family: 'Times New Roman', Times, serif;">- Stamped & E-Signed</p>
+                        <p style="color: rgb(141,141,141);font-family: 'Times New Roman', Times, serif;">- Delivered Directly</p>
+                
+
+                </div>
+                
+                <div class="card-footer">
+                <a href="https://www.squareyards.com/rent-agreement"><button class="button">Create Now</button></a>
+                </div>
+            </li>
+
+
+
+            <li class="s2" style="box-shadow: 10px 10px rgb(177,177,177);border-radius: 10px;margin: 30px 30px 20px 50px;width: 20rem; height: 14rem;border: 1px solid rgb(177,177,177);padding: 8px;">
+                <div class="card-body" style="margin-bottom: 20px;padding: 2px;">
+                    <img src="bed-removebg-preview.png" alt="rent" style="position: absolute;margin-top: 40px;margin-left: 132px;">
+                    
+                        <h4 class="card-title" style="margin: 20px;font-family: 'Times New Roman', Times, serif;">Interiors & Furnishing</h4>
+                        <p style="color: rgb(141,141,141);font-family: 'Times New Roman', Times, serif;">- Low Price Guaranteed</p>
+                        <p style="color: rgb(141,141,141);font-family: 'Times New Roman', Times, serif;">- 10-Year Warranty</p>
+                        <p style="color: rgb(141,141,141);font-family: 'Times New Roman', Times, serif;">- Delivery Assurance</p>
+                
+
+                </div>
+                
+                <div class="card-footer">
+                <a href="https://www.squareyards.com/rent-agreement"><button class="button">Book Consultation</button></a>
+                </div>
+            </li>
+
+
+            <li class="s3" style="box-shadow: 10px 10px rgb(177,177,177);border-radius: 10px;margin: 30px 30px 20px 50px;width: 20rem; height: 14rem;border: 1px solid rgb(177,177,177);padding: 8px;">
+                <div class="card-body" style="margin-bottom: 20px;padding: 2px;">
+                    <img src="loan-removebg-preview.png" alt="rent" style="position: absolute;margin-top: 50px;margin-left: 135px;">
+                    
+                        <h4 class="card-title" style="margin: 20px;font-family: 'Times New Roman', Times, serif;">Home Loan</h4>
+                        <p style="color: rgb(141,141,141);font-family: 'Times New Roman', Times, serif;">- Attractive Interest Rates</p>
+                        <p style="color: rgb(141,141,141);font-family: 'Times New Roman', Times, serif;">- Greater Loan Eligibility</p>
+                        <p style="color: rgb(141,141,141);font-family: 'Times New Roman', Times, serif;">- Bank Loan Offers</p>
+                
+
+                </div>
+                
+                <div class="card-footer">
+                <a href="https://www.squareyards.com/rent-agreement"><button class="button">Apply Now</button></a>
+                </div>
+            </li>
+           
+            <li></li>
+        </ul>
+
+    </span>
+
+
+</div>
+
+
+
+
+<div class="container bar-slide">
+
+    <!-- rent -->
+
+
+   <center>
+    <div class="s1" style="box-shadow: 10px 10px rgb(177,177,177);border-radius: 10px;margin: 30px 30px 20px 50px;width: 20rem; height: 14rem;border: 1px solid rgb(177,177,177);padding: 8px;">
+        <div class="card-body" style="margin-bottom: 20px;padding: 2px;">
+            <!-- <img src="rent-removebg-preview.png" alt="rent" style="position: absolute;margin-top: 54px;margin-left: 142px;"> -->
+            
+                <h4 class="card-title" style="margin: 20px;font-family: 'Times New Roman', Times, serif;">Rent Agreement</h4>
+                <p style="color: rgb(141,141,141);font-family: 'Times New Roman', Times, serif;">- Super Quick & Easy</p>
+                <p style="color: rgb(141,141,141);font-family: 'Times New Roman', Times, serif;">- Stamped & E-Signed</p>
+                <p style="color: rgb(141,141,141);font-family: 'Times New Roman', Times, serif;">- Delivered Directly</p>
+        
+
+        </div>
+        
+        <div class="card-footer">
+        <a href="https://www.squareyards.com/rent-agreement"><button class="button">Create Now</button></a>
+        </div>
+    </div>
+
+   </center>
+
+    <!-- book -->
+
+    <center>
+        <div class="s2" style="box-shadow: 10px 10px rgb(177,177,177);border-radius: 10px;margin: 30px 30px 20px 50px;width: 20rem; height: 14rem;border: 1px solid rgb(177,177,177);padding: 8px;">
+            <div class="card-body" style="margin-bottom: 20px;padding: 2px;">
+                <!-- <img src="bed-removebg-preview.png" alt="rent" style="position: absolute;margin-top: 40px;margin-left: 132px;"> -->
+                
+                    <h4 class="card-title" style="margin: 20px;font-family: 'Times New Roman', Times, serif;">Interiors & Furnishing</h4>
+                    <p style="color: rgb(141,141,141);font-family: 'Times New Roman', Times, serif;">- Low Price Guaranteed</p>
+                    <p style="color: rgb(141,141,141);font-family: 'Times New Roman', Times, serif;">- 10-Year Warranty</p>
+                    <p style="color: rgb(141,141,141);font-family: 'Times New Roman', Times, serif;">- Delivery Assurance</p>
+            
+
+            </div>
+            
+            <div class="card-footer">
+            <a href="https://www.squareyards.com/rent-agreement"><button class="button">Book Consultation</button></a>
+            </div>
+        </div>
+
+    </center>
+
+
+    <!-- loan -->
+
+    <center>
+
+        <div class="s3" style="box-shadow: 10px 10px rgb(177,177,177);border-radius: 10px;margin: 30px 30px 20px 50px;width: 20rem; height: 14rem;border: 1px solid rgb(177,177,177);padding: 8px;">
+            <div class="card-body" style="margin-bottom: 20px;padding: 2px;">
+                <!-- <img src="loan-removebg-preview.png" alt="rent" style="position: absolute;margin-top: 50px;margin-left: 135px;"> -->
+                
+                    <h4 class="card-title" style="margin: 20px;font-family: 'Times New Roman', Times, serif;">Home Loan</h4>
+                    <p style="color: rgb(141,141,141);font-family: 'Times New Roman', Times, serif;">- Attractive Interest Rates</p>
+                    <p style="color: rgb(141,141,141);font-family: 'Times New Roman', Times, serif;">- Greater Loan Eligibility</p>
+                    <p style="color: rgb(141,141,141);font-family: 'Times New Roman', Times, serif;">- Bank Loan Offers</p>
+            
+
+            </div>
+            
+            <div class="card-footer">
+            <a href="https://www.squareyards.com/rent-agreement"><button class="button">Apply Now</button></a>
+            </div>
+        </div>
+
+    </center>
+
+
+    
+
+
+
+
+</div>
+    
+<!-- Bar-end -->
+
+<div class="moment" style="margin-top: 140px;">
+    <marquee behavior="" direction=""><h2>***Find Your Dream Property in Your Preferred City***</h2></marquee>
+</div>
+
+
+<!-- jump -->
+
+<div class="jumbotron about" style="margin-top: 30px;">
+    <div class="container">
+        <div class="main" style=" margin: 30px;font-family: 'Times New Roman', Times, serif;">
+        
+            <h5>ABOUT US :</h5><br>
+
+            Square Yards is India's largest Integrated real estate marketplace, with category leadership presence 
+            across multiple touchpoints of consumer home ownership journey. With Urbanisation and rising disposable 
+            incomes as the core theme, Square Yards, with 7mn+ monthly traffic and ~USD 3bn+ GTV, is the largest and
+             asset light proxy play to the growing residential demand story of India. One of the few Indian start ups
+              to taste global success with presence in 100+ cities across 9 countries, Square Yards is at the forefront
+               of tech adoption in the sector, with multiple patents across VR/AI domains. <br><br><br><br>
+            
+               <h5>OUR PRESENCE : </h5>
+               <h5>Corporate Office:</h5>
+               <p>Good Earth Business Bay, 9th Floor, Sector 58, Gurgaon -122011</p>
+            
+            
+            </div>
+
+            <hr>
+
+               <div class="touch" style=" height: 100px; width: 360px;position: absolute;right: 0;margin: 10px;">
+                <h5 style="padding: 10px;;">EXPERIENCE SQUAREYARDS APP ON MOBILE</h5>
+                <a href="https://play.google.com/store/apps/details?id=com.sq.yrd.squareyards" target="_blank"><img src="playstore2.png" alt=""></a>
+                <a href="https://apps.apple.com/us/app/square-yards/id1093755061" target="_blank"><img src="appstore2.png" alt=""></a>
+            </div>
+
+              <div class="info" style="margin: 30px;">
+                <h5>CONNECT WITH US :</h5>
+                <p>Write to us at</p>
+                <p><a href="#" style="color: violet;">connect@squareyards.com</a></p>
+                <p>
+                    <b>Existing Clients :</b></p>
+                    <p><a href="#" style="color: violet;">customercare@squareyards.com</a></p>
+                <p>
+                    <b>Call us on</b>, toll free number : 1800 208 3344 </p>
+              </div>
+
+
+              
+    </div>
+
+    <center><p style="color: rgb(72,73,75);">© 2023 www.squareyards.com. All rights reserved.</p></center>
+               
+
+</div>
+
+
+
+<!-- end -->
+
+    <script src="./assets/js/jquery.min.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
+    
+</body>
+</html>
